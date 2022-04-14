@@ -1,0 +1,93 @@
+
+	body{
+		display:flex;
+		min-height:98vh;
+		justify-content:center;
+		align-items:center;
+		font-size:15px;
+		color:white;
+	}
+	#container{
+		width:70%;
+		display:flex;
+		border-radius:8px;
+		text-align:left;
+	}
+	#sedan{
+		background-color:hsl(31, 77%, 52%);
+		border-radius:8px 0px 0px 8px;
+		width:33%;
+		padding:40px;
+	}
+	#suv{
+		background-color:hsl(184, 100%, 22%);
+		width:33%;
+		padding:40px;
+		
+	}
+	#lux{
+		background-color:hsl(179, 100%, 13%);
+		border-radius:0px 8px 8px 0px;
+		width:33%;
+		padding:40px;	
+	}
+	h1{
+		
+		font-family: 'Big Shoulders Display', cursive;
+		font-weight:700;
+	}
+	p{
+		font-family: 'Lexend Deca', sans-serif;
+		font-weight:200;
+		color:hsla(0, 0%, 100%, 0.75);
+	}
+	button{
+		padding:10px 30px;
+		margin-top:50px;
+		border-style:none;
+		border:2px solid white;
+		border-radius:20px;
+		background-color:white;
+		font-family: 'Lexend Deca', sans-serif
+	}
+	button:hover{
+		cursor:pointer;
+		
+	}
+	#first{
+		color:hsl(31, 77%, 52%);
+	}
+	#first:hover{
+		background-color:hsl(31, 77%, 52%);
+		color:white;
+	}
+	#second{
+		color:hsl(184, 100%, 22%);
+	}
+	#second:hover{
+		background-color:hsl(184, 100%, 22%);
+		color:white;
+	}
+	#third{
+		color:hsl(179, 100%, 13%);
+	}
+	#third:hover{
+		background-color:hsl(179, 100%, 13%);
+		color:white;
+	}
+	@media(max-width:665px){
+
+		#container{
+			width:100%;
+			display:flex;
+			flex-direction:column;
+			border-radius:11px;
+			text-align:left;
+			justify-content:center;
+			align-items:center;
+		}	
+		#sedan{border-radius:8px 8px 0px 0px;}
+		#suv{border-radius:0px 0px 0px 0px;}
+		#lux{border-radius:0px 0px 8px 8px;}
+	}
+ 
